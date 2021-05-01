@@ -1,0 +1,24 @@
+ <!-- Navigation  -->
+    <div class="navbar">
+        <div class="container">
+            <!-- <a href="#">Vrajang <span>Parikh</span></a> -->
+            <!-- <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation"> -->
+
+
+            <nav>
+                <!-- <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation"> -->
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Experiance</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <!-- <li><a href="#">Contact</a></li> -->
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
