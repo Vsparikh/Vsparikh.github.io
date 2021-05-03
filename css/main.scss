@@ -166,24 +166,31 @@ body::-webkit-scrollbar-thumb{
 
 /*About*/
 
+.about-content .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
 .skill-content {
-    float: left;
     width: 55%;
     margin-right: 0%;
     padding-right: 0%;
-    max-width: 42%;
+    min-width: 25%;
     padding-right: 0%;
     margin-right: 0%;
 }
 
 .skill-sphere{   
-    position: relative;
-    float: left;
+    min-width: 500;  
     color:var(--bg-primary);
+    padding-left: 0%;
+    margin-left: 0%;
 }
+
 .wip-img {
     display: block;
     margin-left: auto;
     margin-right: auto;   
 }
-

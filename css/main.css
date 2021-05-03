@@ -189,20 +189,35 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*About*/
+.about-content .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .skill-content {
-  float: left;
   width: 55%;
   margin-right: 0%;
   padding-right: 0%;
-  max-width: 42%;
+  min-width: 25%;
   padding-right: 0%;
   margin-right: 0%;
 }
 
 .skill-sphere {
-  position: relative;
-  float: left;
+  min-width: 500;
   color: var(--bg-primary);
+  padding-left: 0%;
+  margin-left: 0%;
 }
 
 .wip-img {
