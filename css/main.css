@@ -213,24 +213,6 @@ p {
   }
 }
 
-#blob1 {
-  display: none;
-  top: 0;
-  left: 0;
-  width: 25vmax;
-  -webkit-animation: move 25s ease-in-out infinite;
-          animation: move 25s ease-in-out infinite;
-}
-
-#blob2 {
-  display: none;
-  top: 0;
-  left: 0;
-  width: 25vmax;
-  -webkit-animation: move 30s ease-in-out infinite;
-          animation: move 30s ease-in-out infinite;
-}
-
 #blob3 {
   top: 0;
   left: 0;

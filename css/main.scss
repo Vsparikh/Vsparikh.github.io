@@ -151,23 +151,7 @@ p {
     100% { transform: scale(1)   translate(10px, -30px); }
 }
 
-#blob1 {
-    display: none;
-    top:0;
-    left:0;
-    width: 25vmax;
-    animation: move 25s ease-in-out infinite;
-}
 
-
-
-#blob2 {
-    display: none;
-    top: 0;
-    left: 0;
-    width: 25vmax;
-    animation: move 30s ease-in-out infinite;
-}
 
 #blob3 {
     top: 0;
@@ -385,7 +369,6 @@ ul.job-discription {
     font-family: 'Roboto';
     color: #fff8deff;
     line-height: 2em;
-    // background: var(--text-secondary);
 }
 
 
