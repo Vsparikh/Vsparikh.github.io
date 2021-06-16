@@ -1,2 +1,2 @@
 # personal-website
-livea @ https://vsparikh.github.io/
+live @ https://vsparikh.github.io/
