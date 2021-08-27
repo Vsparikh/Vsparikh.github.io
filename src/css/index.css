@@ -197,7 +197,6 @@ p {
   top: 0;
   position: fixed;
   background: var(--bg-secondary);
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   width: 100vw;
   height: 100vh;
   z-index: -1;
