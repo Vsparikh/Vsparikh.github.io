@@ -18,7 +18,7 @@ function BannerBackground(props) {
 
 function Banner(props) {
   return (
-    <div className="banner">
+    <section className="banner">
       <BannerBackground numCircles={props.numCircles} />
       <div className="banner-text">
         <h1>Hi! I'm {props.profile.name}</h1>
@@ -32,7 +32,7 @@ function Banner(props) {
           Contact Me
         </a>
       </div>
-    </div>
+    </section>
   );
 }
 

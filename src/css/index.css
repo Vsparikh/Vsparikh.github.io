@@ -344,4 +344,59 @@ p {
     border-radius: 50%;
   }
 }
+
+.about-content {
+  text-align: left;
+  margin-top: 5em;
+  margin-left: calc(var(--nav-width) + 10em);
+  min-height: 100vh;
+}
+
+.skill-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .skill-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.skill-content {
+  display: flexbox;
+  padding: 2em;
+  margin: 0;
+  overflow: auto;
+  max-width: 35vw;
+  min-width: 30vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.skill-sphere {
+  display: flexbox;
+  min-width: 500;
+  color: var(--bg-primary);
+  padding: 0%;
+  margin-top: 0%;
+  margin-left: -1%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#skill-canvas {
+  padding: 0%;
+  margin-left: -5%;
+}
 /*# sourceMappingURL=index.css.map */
