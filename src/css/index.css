@@ -374,6 +374,7 @@ p {
 .skill-content {
   display: flexbox;
   padding: 2em;
+  padding-left: 0;
   margin: 0;
   overflow: auto;
   max-width: 35vw;
