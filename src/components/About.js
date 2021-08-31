@@ -5,8 +5,8 @@ function About(props) {
   return (
     <section className="about-content" id="About">
       <h2>About Me</h2>
-      <div class="skill-box">
-        <div class="skill-content">
+      <div className="skill-box">
+        <div className="skill-content">
           <p>
             Hi! I am Vrajang, a passionate and team oriented developer who likes
             to create fun things. The main area of my expertise are game
@@ -25,7 +25,7 @@ function About(props) {
             Node.js.
           </p>
         </div>
-        <div class="skill-sphere">
+        <div className="skill-sphere">
           <Canvas languages={props.languages} width={510} height={480}></Canvas>
         </div>
       </div>

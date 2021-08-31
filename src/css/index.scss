@@ -45,6 +45,11 @@ h2 {
   color: var(--text-secondary);
 }
 
+h3 {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: var(--oxford-blue);
+}
 p {
   font-size: 1.3em;
   margin-top: 0.5em;
@@ -288,6 +293,7 @@ p {
   margin-top: 5em;
   margin-left: calc(var(--nav-width) + 10em);
   min-height: 100vh;
+  margin-bottom: 5em;
 }
 
 .skill-box {
@@ -295,9 +301,17 @@ p {
   flex-direction: row;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .skill-box {
     flex-direction: column;
+  }
+  .skill-sphere {
+    display: flexbox;
+    color: var(--bg-primary);
+    padding: 0%;
+    margin: auto;
+    min-width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 .skill-content {
@@ -313,15 +327,98 @@ p {
 
 .skill-sphere {
   display: flexbox;
-  min-width: 500;
+  min-width: 510;
   color: var(--bg-primary);
   padding: 0%;
   margin-top: 0%;
   margin-left: -1%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
 }
 
 #skill-canvas {
   padding: 0%;
   margin-left: -5%;
+}
+
+.experience-content {
+  text-align: left;
+  margin-top: 5em;
+  margin-left: calc(var(--nav-width) + 10em);
+  min-height: 100vh;
+}
+
+.work-entry {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  margin-bottom: 3rem;
+  background-color: var(--bg-primary);
+  margin-right: 2em;
+  border-radius: 1rem;
+}
+
+.work-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right-style: solid;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-width: 0.2rem;
+  border-color: var(--platinum);
+}
+.work-link {
+  padding: 0;
+  margin: 0;
+}
+.work-img {
+  width: 10rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+}
+.work-img:hover {
+  transform: scale(1.03);
+}
+
+.work-content {
+  margin-left: 1rem;
+}
+
+.job-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.job-date {
+  display: flexbox;
+  margin: 0;
+  padding: 0;
+}
+
+.tech-used {
+  display: flexbox;
+  list-style: none inside;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  li {
+    display: inline;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    margin: 1em;
+    color: #fff8deff;
+    font-size: 0.9em;
+    background-color: var(--text-secondary);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+.job-discription {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-style: italic;
 }
