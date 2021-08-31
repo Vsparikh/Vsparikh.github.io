@@ -353,9 +353,11 @@ p {
   flex-direction: row;
   border-style: solid;
   margin-bottom: 3rem;
-  background-color: var(--bg-primary);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-right: 2em;
   border-radius: 1rem;
+  border-color: var(--black);
+  border-width: 0.5rem;
 }
 
 .work-logo {
@@ -367,8 +369,8 @@ p {
   padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-width: 0.2rem;
-  border-color: var(--platinum);
+  border-width: 0.5rem;
+  border-color: var(--oxford-blue);
 }
 .work-link {
   padding: 0;
@@ -386,6 +388,7 @@ p {
 
 .work-content {
   margin-left: 1rem;
+  width: 100%;
 }
 
 .job-info {
@@ -417,8 +420,25 @@ p {
   }
 }
 
+.job-title {
+  padding: 0.3rem 1rem;
+  background-color: var(--bg-primary);
+
+  border-style: solid;
+  border-color: var(--oxford-blue);
+  border-radius: 2rem;
+  border-width: 0.25rem;
+  border-right-style: none;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
 .job-discription {
   font-family: "Montserrat", sans-serif;
   font-size: large;
   font-style: italic;
+  color: var(--text-primary);
 }
