@@ -1,5 +1,8 @@
 import dElogo from "./images/DE.png";
 import bELogo from "./images/BE.png";
+import website from "./images/website.svg";
+import urLogo from "./images/ur.svg";
+import lambda from "./images/lambda.svg";
 
 class Job {
   constructor(
@@ -20,6 +23,16 @@ class Job {
     this.endDate = endDate;
     this.tech = tech;
     this.discription = discription;
+  }
+}
+
+class Project {
+  constructor(title, tech, discription, logo, link) {
+    this.title = title;
+    this.tech = tech;
+    this.discription = discription;
+    this.logo = logo;
+    this.link = link;
   }
 }
 
@@ -80,4 +93,29 @@ const BE = new Job(
   ]
 );
 
-export { me, languages, BE, DE };
+// title, tech, discription, logo, link
+const personalWeb = new Project(
+  "Personal Website",
+  ["Html", "Sass(css)", "JavaScript", "React"],
+  "Designed and developed personal portfolio website to learn basics of Front-end web development and React",
+  website,
+  "https://github.com/Vsparikh/Vsparikh.github.io"
+);
+
+const ur = new Project(
+  "Royal Game of Ur (Mobile Board Game)",
+  ["Unity", "C#"],
+  "Created strategy based game for mobile devices supporting player versus computer gameplay",
+  urLogo,
+  "https://github.com/Vsparikh/Royal-Game-of-Ur"
+);
+
+const lamInt = new Project(
+  "Lambda Calculus Interpreter",
+  ["Python"],
+  "Implemented parser for untyped lambda calculus to strengthen understanding of functional programming and interpreter design",
+  lambda,
+  "https://github.com/Vsparikh/lambda-calculus-Interpreter"
+);
+
+export { me, languages, BE, DE, personalWeb, ur, lamInt };

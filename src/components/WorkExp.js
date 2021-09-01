@@ -6,7 +6,7 @@ function WorkEntry({ job }) {
   });
 
   const jobDis = job.discription.map((d) => {
-    return <li className="job-discription-entry">{d}</li>
+    return <li className="job-discription-entry">{d}</li>;
   });
   return (
     <div className="work-entry">
@@ -27,9 +27,7 @@ function WorkEntry({ job }) {
           </p>
           <ul class="tech-used">{tech}</ul>
         </div>
-        <ul class="job-discription">
-            {jobDis}
-        </ul>
+        <ul class="job-discription">{jobDis}</ul>
       </div>
     </div>
   );
