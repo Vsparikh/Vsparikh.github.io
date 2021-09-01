@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg1260"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="drawing2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1262"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2598564"
+     inkscape:cx="211.92892"
+     inkscape:cy="184.14798"
+     inkscape:window-width="1261"
+     inkscape:window-height="711"
+     inkscape:window-x="0"
+     inkscape:window-y="135"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     units="px" />
+  <defs
+     id="defs1257" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3260"
+       transform="matrix(1.9592428,0,0,1.9592428,-32.335947,-116.81424)"
+       style="display:inline">
+      <g
+         id="g1405"
+         transform="translate(-83.608333,8.9958333)">
+        <rect
+           style="fill:#f1f2da;fill-opacity:1;stroke:#ff7777;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:18, 18;stroke-dashoffset:15;stroke-opacity:1;paint-order:normal"
+           id="rect33262"
+           width="33.071178"
+           height="33.071178"
+           x="100.89209"
+           y="51.304329" />
+        <circle
+           style="fill:#385d61;fill-opacity:1;stroke:#ff7777;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:22.8, 22.8;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           id="circle35498"
+           cx="117.436"
+           cy="67.831505"
+           r="15.63845" />
+      </g>
+    </g>
+  </g>
+</svg>
