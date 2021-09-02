@@ -40,7 +40,7 @@ function App() {
         <ContactEntry
           icon={linkdinLogo}
           link="https://www.linkedin.com/in/Vsparikh"
-          text="Linkdin"
+          text="Linkedin"
         ></ContactEntry>
         <ContactEntry
           icon={githubLogo}
